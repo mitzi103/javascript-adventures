@@ -3,3 +3,7 @@
     Running l1.js should output in the above format in the console.
     use a variable to store this array 
  */
+
+ var array = ['keyboard', 'mouse','pen','pencil'];
+ console.log(array);
+
