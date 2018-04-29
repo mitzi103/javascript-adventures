@@ -5,7 +5,7 @@
  */
 
  var array = ['keyboard', 'mouse','pen','pencil'];
- console.log(array);
+ //console.log(array);
 /* answer is correct */
 
 /*
@@ -14,9 +14,20 @@ as its contents hold a set of similar items.
 The name array is too general once your code becomes complex
 2) Add a single line comment to the console.log line so that it wont be executed anymore,
 but it will be still in the source code.
-3) Now we need to print the array items one after the other one items per line
+3) Now we need to print the array items one after the other one item per line
 eg: 
 keyboard
 mouse
 ..and so forth
 */
+var accessories = ['keyboard', 'mouse','pen','pencil'];
+// console.log(array);
+//console.log(accessories.length);
+
+for(var i=0; i<accessories.length; i++){
+	/* initialize a variable i
+	checks condition if when i < array length
+	i increments after each loop
+*/
+	console.log(accessories[i]);
+}
